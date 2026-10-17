@@ -1,11 +1,11 @@
 # Kernel
 
-|       |                                          |
-| ----- | ---------------------------------------- |
-| Event | Hackathon project                        |
-| Date  | June 2026                                |
-| Type  | Team project                             |
-| Team  | Rishabh Tiwari, Sparsh Tyagi and dollsl1 |
+|       |                                                            |
+| ----- | ---------------------------------------------------------- |
+| Event | Paris Builds, a 36-hour hackathon by Unaite with YC, Paris |
+| Date  | 27 to 28 June 2026                                         |
+| Type  | Team project                                               |
+| Team  | Rishabh Tiwari, Sparsh Tyagi and dollsl1                   |
 
 Kernel is the production layer between agents and the business software they
 have to operate. It records a human web workflow once and turns it into a
