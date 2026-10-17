@@ -1,6 +1,11 @@
 # Kernel
 
-Live self-contained demo: <https://kernel-dashboard-seven.vercel.app/>
+| | |
+|---|---|
+| Event | Hackathon project |
+| Date | June 2026 |
+| Type | Team project |
+| Team | Rishabh Tiwari, Sparsh Tyagi and dollsl1 |
 
 Kernel is the production layer between agents and the business software they
 have to operate. It records a human web workflow once and turns it into a
@@ -213,7 +218,7 @@ sortable, filterable, deletable), `/runs/:runId`, `/patches`, `/about`,
 ### Runner
 
 `POST /execute` accepts `{ runId, workflow, input }`, validates the payload
-against `packages/core`, drives the procurement portal in Playwright, pauses before
+against [`packages/core`](packages/core), drives the procurement portal in Playwright, pauses before
 write-risk steps, persists each `RunStep`, captures screenshot artifacts, emits
 trace events, records selector patches, and returns the typed execution result.
 Target resolution uses tier 1 cached selectors, tier 2 role and accessible-name
